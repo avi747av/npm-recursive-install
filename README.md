@@ -2,7 +2,7 @@
 
 ## Please Migrate to npm-recursive-runner
 
-We've created a new and more powerful package called **npm-recursive-runner** that replaces npm-recursive-install with improved functionality.
+We've created a new and more powerful package called [**npm-recursive-runner**](https://www.npmjs.com/package/npm-recursive-runner) that replaces npm-recursive-install with improved functionality.
 
 ### Why Migrate?
 - **More Capabilities**: Not just limited to installation - run any npm command recursively
