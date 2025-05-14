@@ -1,3 +1,43 @@
+# Important Notice: npm-recursive-install is Deprecated
+
+## Please Migrate to npm-recursive-runner
+
+We've created a new and more powerful package called **npm-recursive-runner** that replaces npm-recursive-install with improved functionality.
+
+### Why Migrate?
+- **More Capabilities**: Not just limited to installation - run any npm command recursively
+- **Parallel Execution**: Significantly faster with support for concurrent execution across multiple directories
+- **Better Performance**: Optimized for large monorepo projects
+- **Advanced Filtering**: More control over which directories to process
+
+### How to Migrate:
+1. Uninstall the old package:
+   ```
+   npm uninstall npm-recursive-install
+   ```
+
+2. Install the new package:
+   ```
+   npm install npm-recursive-runner
+   ```
+
+3. Update your scripts - the new command format is similar but more powerful:
+   ```
+   npm-recursive-runner [command] [options]
+   ```
+
+### Documentation & Source:
+Please check out the repository for full documentation and examples:
+[https://github.com/avi747av/npm-recursive-runner](https://github.com/avi747av/npm-recursive-runner)
+
+---
+
+Thank you for using npm-recursive-install!
+
+Feel free to open issues or contribute on GitHub if you have any suggestions or encounter any problems.
+
+
+
 # npm-recursive-install
 ===
 
